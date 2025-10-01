@@ -1,0 +1,38 @@
+.our-commitment {
+  display: flex;
+  align-items: center;
+  gap: 5%; // Matn va rasm orasidagi bo'sh joy
+  padding: 40px;
+  background-color: #faf7f1;
+
+  .image {
+    flex-shrink: 0; // Rasm kattaligini kamaytirmaslik uchun
+    width: 350px;   // rasmni pxda o'lchami
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+  }
+
+  .content {
+    width: 60%;   
+    color: #17181e;
+
+    h2 {
+    //   font-weight: 900;
+    //   font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.6;
+    //   font-size: 1rem;
+      color: #6d6e73;
+    }
+  }
+}

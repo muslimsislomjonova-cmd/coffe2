@@ -1,0 +1,41 @@
+.uncompromising-quality {
+  display: flex;
+  align-items: center;
+  background-color: #252f3d;
+  border-radius: 12px;
+  padding: 40px;
+  margin: 40px;
+  position: relative;
+  color: #d0d5dd;
+
+  .content {
+    width: 60%;
+
+    h2 {
+      font-weight: 900;
+
+      margin-bottom: 20px;
+      color: #f9fafb;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #a0aec0;
+    }
+  }
+
+  .image {
+    width: 300px;
+    margin-left: -60px; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+    }
+  }
+}

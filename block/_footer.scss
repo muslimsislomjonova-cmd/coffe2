@@ -1,0 +1,40 @@
+.footer {
+  background-color: #2c3440;
+  padding: 0;
+  color: white;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+  }
+.menu{
+  gap: 50%;
+}
+
+    a {
+      color: #707683;
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        color: white;
+
+
+      }
+    }
+  }
+
+  
+    
+  
+
+
+
