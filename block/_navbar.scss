@@ -2,10 +2,12 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #fefcf7;
+  margin: auto;
 }
 
 .header {
   display: flex;
+  margin: auto;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
@@ -18,7 +20,8 @@ body {
 
     img {
       height: 24px;
-      width: auto;
+      width: 170px;
+
     }
 
     span {
@@ -47,3 +50,24 @@ body {
     }
   }
 }
+
+  @media (max-width: 480px) {
+
+    .logo {
+      img {
+        width: 140px;
+      }
+
+      span {
+        font-size: 18px;
+      }
+    }
+
+    .nav ul {
+      gap: 15px;
+
+      li a {
+        font-size: 11px;
+      }
+    }
+  }
